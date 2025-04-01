@@ -28,7 +28,7 @@ import multiprocessing
 # --- Gemini API Setup ---
 # IMPORTANT: Set your GOOGLE_API_KEY as an environment variable or directly here (replace with your actual API key)
 # It's recommended to use environment variables for security.
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY") or 'AIzaSyBkpQlnjm9-kvAG9rKbM7Gh6H-QMuCpY2w'  # Replace 'YOUR_API_KEY_HERE' with your actual key if not using env variable
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY") or 'YOUR_API_KEY_HERE'  # Replace 'YOUR_API_KEY_HERE' with your actual key if not using env variable
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # --- Model Initialization (Improved) ---
